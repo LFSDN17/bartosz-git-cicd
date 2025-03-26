@@ -43,7 +43,3 @@ jobs:
      
       - name: Run tests with pytest
         run: pytest tests/account_tests.py
-             pip install pytest-cov
-
-      - name: Run tests with coverage
-        run: pytest --cov=your_module tests/account_tests.py
