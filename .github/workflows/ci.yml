@@ -35,4 +35,4 @@ jobs:
               pip install pytest  # Direct installation if not using a requirements file
     
       - name: Run tests with pytest
-        run: pytest
+        run: pytest tests\
